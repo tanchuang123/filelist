@@ -1,0 +1,44 @@
+QPushButton#m_pDownLoad:pressed{
+min-width:none;
+	border:0px;
+	qproperty-text:'';/*文字清空*/
+	border-radius:0px;
+	image:url(F:/work/FileList/image/download.svg);
+	background-color:none;
+}	
+QPushButton#m_pDownLoad:hover{
+	image:url(F:/work/FileList/image/download_gray.svg);
+}
+QPushButton#m_pDeleteButton:pressed{
+min-width:none;
+	border:0px;
+	qproperty-text:'';/*文字清空*/
+	border-radius:0px;
+	image:url(F:/work/FileList/image/delete.svg);
+	background-color:none;
+}	
+QPushButton#m_pDeleteButton:hover{
+	image:url(F:/work/FileList/image/delete_gray.svg);
+}
+QPushButton#m_pLabel1:pressed{
+min-width:none;
+	border:0px;
+	qproperty-text:'';/*文字清空*/
+	border-radius:0px;
+	image:url(F:/work/FileList/image/file.svg);
+	background-color:none;
+}	
+QPushButton#m_pLabel1:hover{
+	image:url(F:/work/FileList/image/file_gray.svg);
+}
+QPushButton#m_pLabel2:pressed{
+min-width:none;
+	border:0px;
+	qproperty-text:'';/*文字清空*/
+	border-radius:0px;
+	image:url(F:/work/FileList/image/dir.svg);
+	background-color:none;
+}	
+QPushButton#m_pLabel2:hover{
+	image:url(F:/work/FileList/image/dir_gray.svg);
+}
