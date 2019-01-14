@@ -25,14 +25,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-    Test/CustomListView.cpp \
-    Test/ListViewDelegate.cpp \
-    Test/ListViewWidget.cpp
+    Test/CustomTableView.cpp \
+    Test/TableViewDelegate.cpp \
+    Test/TableViewWidget.cpp
 
 HEADERS += \
-    Test/CustomListView.h \
-    Test/ListViewDelegate.h \
-    Test/ListViewWidget.h
+    Test/CustomTableView.h \
+    Test/TableViewDelegate.h \
+    Test/TableViewWidget.h
 
 FORMS += \
-    Test/ListViewWidget.ui
+    Test/TableViewWidget.ui

@@ -1,6 +1,6 @@
 ﻿
 #include <QApplication>
-#include "Test/ListViewWidget.h"
+#include "Test/TableViewWidget.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     }
 
 
-    ListViewWidget w;
+    TableViewWidget w;
     w.show();
 
     return a.exec();
