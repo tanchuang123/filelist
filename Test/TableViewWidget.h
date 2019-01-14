@@ -69,7 +69,6 @@ private:
     Ui::TableViewWidget *ui;
     //model
     QStandardItemModel *model;
-    QStandardItemModel *model2;
 //    QFileSystemModel *model;
     QString _selectedMap;//被选中的地图
     QString _currentProcessedMap;//当前操作(切换或删除)的地图
