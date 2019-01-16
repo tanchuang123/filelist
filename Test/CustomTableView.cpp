@@ -66,7 +66,7 @@ void CustomTableView::mousePressEvent(QMouseEvent *event)//鼠标点击事件
      qDebug()<<QStringLiteral("鼠标点击事件");
     QModelIndex index = indexAt(event->pos());
     emit sig_press(index.data().toString());//点击事件
-    /*QListView*/QTableView::mousePressEvent(event);
+    QTableView::mousePressEvent(event);
 
 }
 
